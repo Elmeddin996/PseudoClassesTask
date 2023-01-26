@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.programming {
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #1b1919;
+}
+
+.programming:hover{
+background-color: #3939b6;
+width: 350px;
+height: 350px;
+}
+
+.programming img {
+    width: 50%;
+    top: 20px;
+}
+
+.programming img,
+h1 {
+    position: absolute;
+    left: 20px;
+}
+
+.programming h1 {
+    position: absolute;
+    bottom: 40px;
+    font-size: 30px;
+}
+
+.code-academy{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+
+.why-code-academy-header{
+    width: 300px;
+    height: 80px;
+    position: relative;
+    
+}
+.why-code-academy-header h2 p{
+    font-weight: 300;
+
+}
+.why-code-academy-header h2 span{
+    font-weight: bolder;
+}
+
+.code-academy p{
+    font-style:inherit;
+    font-size:larger;
+}
+
+.why-code-academy-header h2::after{
+    content: "";
+    width: 150px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #b813a2;
+}
+
+.project{
+   display: flex;
+   margin-left: 300px;
+}
+
+.project-img{
+   width: 300px; 
+}
+.project-img img{
+    width: 250px
+}
+
+.project-content{
+    width: 350px;
+    height: 250px;
+}
+.project-content a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-content p{
+    font-style:inherit;
+    font-size:larger;
+}
